@@ -1,0 +1,120 @@
+HTML, BODY {
+	font-family: Verdana, sans-serif;
+}
+#homeSearch {
+	width : 500px;
+	margin: auto;
+}
+#homeSearch input.searchInput {
+	font-size: 30px;
+	width : 300px;
+	border: 1px solid #CCCCCC;
+	padding: 6px 10px;
+	border-radius : 6px;
+}
+#homeSearch input.searchSubmit {
+	font-size: 30px;
+	border-radius : 6px;
+}
+header {
+	border-bottom: 4px solid black;
+	margin-bottom: 40px;
+}
+header .links {
+	float : left;
+	width: 50%;
+}
+header .search {
+	float : left;
+	width: 50%;
+	text-align: right;
+}
+#headerSearch input.searchInput {
+	font-size: 20px;
+	width : 200px;
+	border: 1px solid #CCCCCC;
+	padding: 4px 8px;
+	border-radius : 4px;
+}
+#headerSearch input.searchSubmit {
+	font-size: 20px;
+	border-radius : 4px;
+}
+#homeItro {
+	width : 600px;
+	margin: auto;
+	background: #F0F0F0;
+	padding: 6px 10px;
+	text-align: center;
+	border: 1px solid #E0E0E0;
+}
+.listeCategories {
+	margin: 30px 0 40px 0;
+	text-align: center;
+}
+.filmList article {
+	clear: both;
+	padding : 6px 0;
+}
+.filmList article img {
+	float: left;
+	height : 200px;
+}
+.filmList article .content {
+	float: left;
+	width: 80%;
+}
+.filmList article .actions {
+	float: left;
+	width: 20%;
+}
+footer {
+	clear: both;
+}
+#details .detailsLeft {
+	float: left;
+	width: 220px;
+	text-align: center;
+}
+#details .detailsRight {
+	float: left;
+	width: 500px;
+}
+#details:after {
+	clear: both;
+}
+#details .titre {
+	float: left;
+	font-size: 30px;
+}
+#details .categorie {
+	padding-top: 10px;
+	text-align: right;
+	font-size: 18px;
+}
+#details .synopsis {
+	margin: 0 0 20px 0;
+	padding: 6px;
+	background: #F0F0F0;
+}
+#details .acteurs {
+	margin: 10px 0 10px 0;
+}
+#details .fichier {
+	margin: 10px 0 10px 0;
+}
+.btn {
+	background : #66AA66;
+	text-align: center;
+	padding : 6px 10px;
+	display: block;
+	text-decoration: none;
+	color: white;
+	border-radius: 4px;
+}
+.btn:hover {
+	background : #88CC88;
+}
+.clearer {
+	clear : both;
+}
