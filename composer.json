@@ -1,0 +1,13 @@
+{
+    "name": "etudiant/gclf",
+    "description": "Gestion de copies legales de films",
+    "authors": [
+        {
+            "name": "Ben CORDIER",
+            "email": "neby55@gmail.com"
+        }
+    ],
+    "require": {
+        "jleagle/omdb-imdb-api-client": "^0.1.0"
+    }
+}
